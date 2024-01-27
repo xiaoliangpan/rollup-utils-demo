@@ -1,0 +1,29 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env"
+            // {
+            //     "useBuiltIns": "usage",
+            //     // "targets": "> 0.25%",
+            //     // "targets": [
+            //     //     "> 0.25%",
+            //     //     "not dead"
+            //     // ],
+            //     "corejs": {
+            //         "version": 3
+            //     }
+            // }
+        ]
+    ],
+    "plugins": [
+        [
+            "@babel/plugin-transform-runtime",
+            {
+                "targets": "> 0.25%",
+                "corejs": {
+                    "version": 3
+                }
+            }
+        ]
+    ]
+}
