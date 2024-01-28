@@ -17,7 +17,6 @@ const config = defineConfig([
       },
       {
         dir: "dist/lib/",
-        file: "[name].cjs",
         format: "cjs",
         preserveModules: true,
       },
