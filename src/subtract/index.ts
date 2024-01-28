@@ -1,4 +1,4 @@
 const subtract = (a: number, b: number) => {
-  return a - b;
+	return a - b;
 };
 export { subtract };
