@@ -5,10 +5,9 @@
   "main": "dist/lib/index.js",
   "module": "dist/es/index.js",
   "types": "dist/es/index.d.ts",
-  "type": "module",
   "scripts": {
     "prepare": "husky install",
-    "build": "rimraf dist && rollup -c --configPlugin @rollup/plugin-typescript",
+    "build": "rimraf dist && rollup -c rollup.config.mts --configPlugin @rollup/plugin-typescript",
     "commit": "git-cz",
     "lint": "eslint . --ext '.js,.ts' --fix",
     "changelog": "conventional-changelog -p -i CHANGELOG.md -s",
