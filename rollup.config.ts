@@ -1,11 +1,9 @@
-import type { RollupOptions } from "rollup";
 import resolve from "@rollup/plugin-node-resolve";
-import babel, { getBabelOutputPlugin } from "@rollup/plugin-babel";
+import babel from "@rollup/plugin-babel";
 import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import terser from "@rollup/plugin-terser";
 import dts from "rollup-plugin-dts";
-import html from "@rollup/plugin-html";
 
 const config = [
   {
@@ -28,7 +26,7 @@ const config = [
     input: "src/index.ts",
     output: [
       {
-        file: "dist/bundle.min.js",
+        file: "dist/index.min.js",
         format: "umd",
         name: "utils",
       },
@@ -43,7 +41,7 @@ const config = [
         exclude: "node_modules/**", // 排除 node_modules 下的文件
         extensions: [".js", ".jsx", ".ts", ".tsx"],
       }),
-      // html(),
+      terser(),
     ],
   },
   {

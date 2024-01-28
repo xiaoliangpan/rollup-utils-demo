@@ -1,18 +1,43 @@
 {
   "name": "rollup-utils-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "dist/es/i",
+  "private": false,
+  "version": "1.0.1",
+  "description": "rollup-utils-demo",
+  "main": "dist/lib/index.js",
+  "module": "dist/es/index.js",
+  "types": "dist/es/index.d.ts",
   "type": "module",
   "scripts": {
     "prepare": "husky install",
     "build": "rimraf dist && rollup -c --configPlugin @rollup/plugin-typescript",
+    "commit": "git-cz",
+    "lint": "eslint . --ext '.js,.ts' --fix",
     "changelog": "conventional-changelog -p -i CHANGELOG.md -s",
-    "version": "bumpp"
+    "prepublishOnly": "pnpm run build",
+    "release": "pnpm changelog && bumpp --commit --tag --push && pnpm publish"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xiaoliangpan/rollup-utils-demo.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "rollup",
+    "commitlint",
+    "husky",
+    "CHANGELOG",
+    "LICENSE",
+    "ESlint"
+  ],
+  "files": [
+    "dist",
+    "README",
+    "LICENSE"
+  ],
+  "author": "Vilin",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.23.9",
     "@babel/plugin-external-helpers": "^7.23.3",
@@ -45,5 +70,10 @@
     "src/**/*.{js,ts}": [
       "eslint --ext .ts 'src/**/*.ts' --fix"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
