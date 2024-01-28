@@ -12,7 +12,7 @@
     "lint": "eslint . --ext '.js,.ts' --fix",
     "changelog": "conventional-changelog -p -i CHANGELOG.md -s",
     "prepublishOnly": "pnpm run build",
-    "release": "bumpp --commit --tag --push && pnpm changelog && pnpm publish --access public"
+    "release": "pnpm run build && bumpp --commit --tag --push && pnpm changelog && pnpm publish --access public"
   },
   "repository": {
     "type": "git",
