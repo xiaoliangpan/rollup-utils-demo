@@ -8,15 +8,16 @@ import dts from "rollup-plugin-dts";
 
 const config = defineConfig([
   {
-    input: "src/index.ts",
+    input: "src/main.ts",
     output: [
       {
         dir: "dist/es",
-        format: "esm",
+        format: "es",
         preserveModules: true,
       },
       {
-        dir: "dist/lib",
+        dir: "dist/lib/",
+        file: "[name].cjs",
         format: "cjs",
         preserveModules: true,
       },
@@ -50,6 +51,7 @@ const config = defineConfig([
     output: [
       { file: "dist/es/index.d.ts", format: "es" },
       { file: "dist/lib/index.d.ts", format: "cjs" },
+      { file: "dist/index.d.ts", format: "umd" },
     ],
     plugins: [dts()],
   },
