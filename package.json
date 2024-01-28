@@ -34,7 +34,7 @@
     "LICENSE"
   ],
   "author": "Vilin",
-  "license": "MIT",
+  "license": "TLS",
   "devDependencies": {
     "@babel/core": "^7.23.9",
     "@babel/plugin-transform-runtime": "^7.23.9",
