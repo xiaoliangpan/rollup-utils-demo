@@ -1,3 +1,17 @@
+## [1.0.18](https://github.com/xiaoliangpan/rollup-utils-demo/compare/v1.0.17...v1.0.18) (2024-01-28)
+
+
+### Bug Fixes
+
+* changelog ([221f55c](https://github.com/xiaoliangpan/rollup-utils-demo/commit/221f55c93e7fdbebb255b90aa4bf5510d2e76e18))
+
+
+### Features
+
+* commitlint 配置 ([5fbfc79](https://github.com/xiaoliangpan/rollup-utils-demo/commit/5fbfc7988a49335b63ae3eb02ea3eef6e0468841))
+
+
+
 ## [1.0.17](https://github.com/xiaoliangpan/rollup-utils-demo/compare/v1.0.16...v1.0.17) (2024-01-28)
 
 
