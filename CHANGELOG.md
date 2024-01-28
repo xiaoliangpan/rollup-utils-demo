@@ -1,3 +1,17 @@
+## [1.0.16](https://github.com/xiaoliangpan/rollup-utils-demo/compare/v1.0.11...v1.0.16) (2024-01-28)
+
+
+### Bug Fixes
+
+* changelog脚本修改 ([f200f66](https://github.com/xiaoliangpan/rollup-utils-demo/commit/f200f66c8a3feb20b75408f0d1d2d7abaa982865))
+* changelog输出 ([3e642d3](https://github.com/xiaoliangpan/rollup-utils-demo/commit/3e642d37756f5191b76f239a7c190a3751439ebe))
+* package.json脚本跳转 ([8024762](https://github.com/xiaoliangpan/rollup-utils-demo/commit/8024762801bd769393dd88dcaef2553bceb85da4))
+* package.json脚本修改 ([2face94](https://github.com/xiaoliangpan/rollup-utils-demo/commit/2face944082d1c3f8ba378f99b9b444381c1758a))
+* package.json脚本修改 ([b0f0415](https://github.com/xiaoliangpan/rollup-utils-demo/commit/b0f04151127139d30b38df842b3bcdd33f15f09d))
+* package.json脚本修改 ([eb34119](https://github.com/xiaoliangpan/rollup-utils-demo/commit/eb341196bcfe498c578b248d5826027b91a54ffd))
+
+
+
 ## [1.0.11](https://github.com/xiaoliangpan/rollup-utils-demo/compare/v1.0.10...v1.0.11) (2024-01-28)
 
 
