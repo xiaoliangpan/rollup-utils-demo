@@ -10,7 +10,7 @@
     "build": "rimraf dist && rollup -c rollup.config.mts --configPlugin @rollup/plugin-typescript",
     "commit": "git-cz",
     "lint": "eslint . --ext '.js,.ts' --fix",
-    "changelog": "conventional-changelog -p -i CHANGELOG.md -s",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "prepublishOnly": "pnpm run build",
     "release": "pnpm run build && bumpp --commit --tag --push && pnpm changelog && pnpm publish --access public"
   },
