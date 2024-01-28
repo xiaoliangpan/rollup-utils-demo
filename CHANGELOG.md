@@ -1,3 +1,13 @@
+## [1.0.17](https://github.com/xiaoliangpan/rollup-utils-demo/compare/v1.0.16...v1.0.17) (2024-01-28)
+
+
+### Bug Fixes
+
+* 脚本顺序跳转 ([90d9f9b](https://github.com/xiaoliangpan/rollup-utils-demo/commit/90d9f9bd12c84097ee9bffcda6a83ad053b91fac))
+* changelog ([3a8e69a](https://github.com/xiaoliangpan/rollup-utils-demo/commit/3a8e69a5eecd4fbe7e70e4af75b4c4d389ed36d1))
+
+
+
 ## [1.0.16](https://github.com/xiaoliangpan/rollup-utils-demo/compare/v1.0.11...v1.0.16) (2024-01-28)
 
 
