@@ -37,7 +37,7 @@
   },
   "lint-staged": {
     "src/**/*.{js,ts}": [
-      "eslint --ext --ext .ts 'src/**/*.ts'"
+      "eslint --ext .ts 'src/**/*.ts' --fix"
     ]
   }
 }
