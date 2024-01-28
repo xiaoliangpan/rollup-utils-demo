@@ -12,7 +12,8 @@
     "lint": "eslint . --ext '.js,.ts' --fix",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "prepublishOnly": "pnpm run build",
-    "release": "pnpm run build && bumpp --commit --tag --push && pnpm changelog && pnpm publish --access public"
+    "version": "pnpm run build && bumpp --commit --tag --push && pnpm changelog",
+    "release": "pnpm publish --access public"
   },
   "repository": {
     "type": "git",
