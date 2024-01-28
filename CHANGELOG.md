@@ -1,3 +1,15 @@
+## [1.0.19](https://github.com/xiaoliangpan/rollup-utils-demo/compare/v1.0.18...v1.0.19) (2024-01-28)
+
+
+### Bug Fixes
+
+* changelog ([226a972](https://github.com/xiaoliangpan/rollup-utils-demo/commit/226a972e117597bc33cc9821037d44551a8cc9c6))
+* prettier配置 ([d89aff9](https://github.com/xiaoliangpan/rollup-utils-demo/commit/d89aff9418db2e6dc047fb2e069355eed41d38e7))
+* prettier配置 ([ae43bd6](https://github.com/xiaoliangpan/rollup-utils-demo/commit/ae43bd6bc6ff1c96ae80ca32f19df318f5b1b2b9))
+* ts语法监测脚本 ([78c94de](https://github.com/xiaoliangpan/rollup-utils-demo/commit/78c94de6a5c1e16dbefa257eb1b6274f107cd639))
+
+
+
 ## [1.0.18](https://github.com/xiaoliangpan/rollup-utils-demo/compare/v1.0.17...v1.0.18) (2024-01-28)
 
 
