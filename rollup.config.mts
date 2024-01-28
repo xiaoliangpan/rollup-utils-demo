@@ -24,7 +24,7 @@ const config = defineConfig([
     plugins: [resolve(), commonjs(), typescript()],
   },
   {
-    input: "src/index.ts",
+    input: "src/main.ts",
     output: [
       {
         file: "dist/index.min.js",
@@ -46,7 +46,7 @@ const config = defineConfig([
     ],
   },
   {
-    input: "src/index.ts",
+    input: "src/main.ts",
     output: [
       { file: "dist/es/index.d.ts", format: "es" },
       { file: "dist/lib/index.d.ts", format: "cjs" },
