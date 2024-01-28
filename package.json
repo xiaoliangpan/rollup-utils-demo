@@ -18,6 +18,9 @@
     "type": "git",
     "url": "git@github.com:xiaoliangpan/rollup-utils-demo.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [
     "rollup",
     "commitlint",
