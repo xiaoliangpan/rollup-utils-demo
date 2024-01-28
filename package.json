@@ -1,5 +1,5 @@
 {
-  "name": "@vdemo/rollup-utils-demo",
+  "name": "@vilin-lib/rollup-utils-demo",
   "private": false,
   "version": "1.0.3",
   "description": "rollup-utils-demo,基于rollup的工具库工程化打包配置demo",
