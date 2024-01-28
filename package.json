@@ -1,5 +1,5 @@
 {
-  "name": "rollup-utils-demo",
+  "name": "@vdemo/rollup-utils-demo",
   "version": "1.0.5",
   "description": "rollup-utils-demo,基于rollup的工具库工程化打包配置demo",
   "main": "dist/lib/index.js",
@@ -13,7 +13,7 @@
     "lint": "eslint . --ext '.js,.ts' --fix",
     "changelog": "conventional-changelog -p -i CHANGELOG.md -s",
     "prepublishOnly": "pnpm run build",
-    "release": "bumpp --commit --tag --push && pnpm publish"
+    "release": "bumpp --commit --tag --push && pnpm publish --access public"
   },
   "repository": {
     "type": "git",
