@@ -1,7 +1,7 @@
 {
-  "name": "rollup-utils-demo",
+  "name": "@vdemo/rollup-utils-demo",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "rollup-utils-demo,基于rollup的工具库工程化打包配置demo",
   "main": "dist/lib/index.js",
   "module": "dist/es/index.js",
