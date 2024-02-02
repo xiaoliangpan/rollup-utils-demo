@@ -1,3 +1,22 @@
+## [1.0.24-beta.0](https://github.com/xiaoliangpan/rollup-utils-demo/compare/v1.0.23...v1.0.24-beta.0) (2024-02-02)
+
+
+### Bug Fixes
+
+* 修改入库文件部分代码 ([9412020](https://github.com/xiaoliangpan/rollup-utils-demo/commit/94120202cb2b96096b8470369e596319965aa920))
+* 修改入库文件部分代码 ([d2a526f](https://github.com/xiaoliangpan/rollup-utils-demo/commit/d2a526f331caa24ca492fc6def05919dba96d186))
+
+
+
+## [1.0.23](https://github.com/xiaoliangpan/rollup-utils-demo/compare/v1.0.22...v1.0.23) (2024-02-02)
+
+
+### Bug Fixes
+
+* changelog ([b935a8c](https://github.com/xiaoliangpan/rollup-utils-demo/commit/b935a8c18dca3ade89ed6641d01c17e54e6b2ef6))
+
+
+
 ## [1.0.22](https://github.com/xiaoliangpan/rollup-utils-demo/compare/v1.0.22-beta.1...v1.0.22) (2024-02-02)
 
 
