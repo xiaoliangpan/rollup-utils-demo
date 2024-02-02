@@ -1,3 +1,13 @@
+## [1.0.22](https://github.com/xiaoliangpan/rollup-utils-demo/compare/v1.0.22-beta.1...v1.0.22) (2024-02-02)
+
+
+### Bug Fixes
+
+* changlog ([d604ee3](https://github.com/xiaoliangpan/rollup-utils-demo/commit/d604ee34f7b9612b30d752cd175fa3b316d34e4f))
+* README修改 ([ed6ef55](https://github.com/xiaoliangpan/rollup-utils-demo/commit/ed6ef555b4e7a4fc1dea702532fad8f69ce0fd79))
+
+
+
 ## [1.0.22-beta.1](https://github.com/xiaoliangpan/rollup-utils-demo/compare/v1.0.22-beta.0...v1.0.22-beta.1) (2024-02-02)
 
 
