@@ -22,4 +22,11 @@ pnpm tsc
 
 # 交互式更新版本号
 pnpm release:version
+
+# 生成changelog日志
+
+pnpm release:changelog
+
+# 发包到npm市场
+pnpm release
 ```
