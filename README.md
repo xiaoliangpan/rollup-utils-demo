@@ -41,7 +41,7 @@ pnpm lint:fix
 # TS检查类型 先执行 pnpm lint
 pnpm tsc
 
-# TS检查类型 先执行 pnpm lint
+# 交互式更新版本号
 pnpm release:version
 ```
 
